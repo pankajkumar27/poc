@@ -8,6 +8,24 @@
     },
     {
       "path": "./apps/cmma-frontend"
+    },
+    {
+      "path": "./ui-sdk"
+    },
+    {
+      "path": "./api-client"
+    },
+    {
+      "path": "./custom-fields"
+    },
+    {
+      "path": "./shell-e2e"
+    },
+    {
+      "path": "./shell"
+    },
+    {
+      "path": "./shared"
     }
   ]
 }

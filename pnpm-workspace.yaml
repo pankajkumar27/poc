@@ -1,2 +1,7 @@
-packages: 
-  - "apps/*"
+packages:
+  - 'apps/*'
+  - 'ui-sdk'
+  - 'api-client'
+  - 'custom-fields'
+  - 'shell'
+  - 'shared'
