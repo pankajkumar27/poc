@@ -2,8 +2,13 @@
   "name": "@cmma-frontend/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
-  "private": true,
+  "scripts": {
+    "build-all": "nx run-many --target=build --all",
+    "publish-all": "nx run-many --target=publish --all"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "react": "19.0.0",
     "react-dom": "19.0.0",
